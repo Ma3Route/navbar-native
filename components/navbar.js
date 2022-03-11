@@ -22,6 +22,8 @@ const LIGHT = 'light';
 const LEFT = 'left';
 const RIGHT = 'right';
 
+export { FADE, SLIDE, NONE, LEFT, RIGHT };
+
 export default class Navbar extends Component {
 
     constructor(props) {
